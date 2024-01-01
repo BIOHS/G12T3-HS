@@ -1,185 +1,437 @@
+*{
+  padding: 0;
+  margin: 0;
+  input{
+    cursor: pointer;
+  }
+}
 @media (min-width: 1281px) {
-  footer{
-    margin-top: 15%;
-    width: 100%;
-  }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
-  }
   .header{
     width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
   }
 }
-@media (min-width: 1024px) and (max-width: 1281px) {
-  footer{
-    margin-top: 18%;
-    width: 100%;
-  }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
-  }
+@media (min-width: 1185px) and (max-width: 1281px) {
   .header{
     width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }
+  .input-box input {
+    padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
   }
 }
-@media (min-width: 900px) and (max-width: 1024px) {
-  footer{
-    margin-top: 23%;
-    width: 100%;
-  }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
-  }
+@media (min-width: 983px) and (max-width: 1185px) {
   .header{
     width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
+  }
+}
+@media (min-width: 900px) and (max-width: 983px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .col {
+    font-size: 15px;
+  }  
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 17%;
   }
 }
 @media (min-width: 767px) and (max-width: 900px) {
-  footer{
-    margin-top: 30%;
-    width: 100%;
-  }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
-  }
   .header{
     width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .input-box input {
+    padding: 5px 10px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
   }
 }
 @media (min-width: 650px) and (max-width: 767px) {
-  footer{
-    margin-top: 35%;
-    width: 100%;
-  }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
-  }
   .header{
     width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
   }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
   }
-@media (min-width: 549px) and (max-width: 650px) {
   footer{
-    margin-top: 48%;
+    background-color: #111;
+    padding: 20px 0;
     width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
   }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
-  }
-  .header{
-    width: 100%;
-  }
-  }
-@media (min-width: 481px) and (max-width: 549px) {
-footer{
-  margin-top: 60%;
-  width: 100%;
-}
-body{
-  width: fixed;
-  padding-bottom: 100%;
-  position: absolute;
-  width: auto;
-}
-.header{
-  width: 100%;
-}
-}
-@media (max-width: 480px) {
-footer{
-  margin-top: 80%;
-  width: 100%;
-}
-body{
-  width: fixed;
-  padding-bottom: 100%;
-  position: absolute;
-  width: auto;
-}
-.header{
-  width: 100%;
-}
-  .col h3{
-    font-size: 20px;
-  }
-  .email-id{
-    width: fit-content;
-    margin: 2px 0;
-    font-size: 13px;
-  }
-  .padlet{
-    font-size: 13px;
+  .input-box input {
+    padding: 5px 1px;
   }
   .logo{
-    width: 20px;
-}
-}
-@media (min-width: 320px) and (max-width: 400px) {
-  footer{
-    margin-top: 90%;
-    width: 100%;
+    width: 90px;
   }
-  body{
-    width: fixed;
-    padding-bottom: 100%;
-    position: absolute;
-    width: auto;
+  .nav-links ul li a{
+    font-size: 19px;
   }
+}
+@media (min-width: 549px) and (max-width: 650px) {
   .header{
     width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
   }
-    .col h3{
-      font-size: 16px;
-    }
-    .col {
-      font-size: 14px;
-    }
-    .email-id{
-      width: fit-content;
-      margin: 2px 0;
-      font-size: 10px;
-    }
-    .padlet{
-      font-size: 12px;
-    }
-    .logo{
-      width: 18px;
-  }  
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .input-box input {
+    padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
 }
-
-
-*{
-  margin: 0;
-  padding: 0;
-  input{
-    cursor: pointer;
-    }
+@media (min-width: 481px) and (max-width: 549px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .input-box input {
+    padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
 }
-.header{
-  min-height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("file:///home/chronos/u-ff813e060e527b4b8183c8ace4c1a2fd236ae28c/MyFiles/Downloads/images/med.jpg");
-  background-size: cover;
-  position: relative;
+@media (min-width: 400px) and (max-width: 481px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  }
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 300px;
+    height: 500px;
+  }
+  .input-box input {
+  padding: 5px 1px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+  .container {
+    left: 12%;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  } 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 300px;
+    height: 500px;
+  }
+  .container {
+    left: 0.4%;
+  }
+  .input-box input {
+    padding: 3px 0px;
+  }
+  .logo{
+    width: 70px;
+  }
+  .nav-links ul li a{
+    font-size: 19px;
+  }
+}
+@media (min-width: 240px) and (max-width: 320px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  } 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 185px;
+    height: 385px;
+  }
+  .container {
+    left: 1%;
+  }
+  .input-box input {
+    padding: 3px 0px ;
+  }
+  .logo{
+    width: 45px;
+  }
+  .nav-links ul li a{
+    font-size: 13px;
+  }
+  .input-box{
+    display: none;
+  }
+}
+@media (max-width: 240px) {
+  .header{
+    width: 100%;
+    background-position: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("med.jpg");
+  } 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  footer{
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .fil {
+    width: 150px;
+    height: 350px;
+  }
+  .container {
+    left: 1%;
+  }
+  .input-box input {
+    padding: 3px 0px ;
+  }
+  .logo{
+    width: 45px;
+  }
+  .nav-links ul li a{
+    font-size: 13px;
+  }
+  .input-box{
+    display: none;
+  }
+  .ogo{
+    width: 70px;
+  }
 }
 nav{
   display: flex;
@@ -203,7 +455,6 @@ nav img{
 .nav-links ul li a{
   color: #fff;
   text-decoration: none;
-  font-size: 19px;
 }
 .nav-links ul li::after{
     content: '';
@@ -216,61 +467,145 @@ nav img{
 .nav-links ul li:hover::after{
   width: 100%;
 }
-body {
-  background-color: #111;
-  height: 20px;  
-  width: auto;
-}
 
 .container{
   display: inline-block;
-  justify-content: center;
+  justify-content: left;
   top: 50%;
-  left: 17%;
   position: relative;
 }
 
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  box-shadow: 3px 3px 5px 5px rgb(79, 208, 158);
+}
+.text-box1{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  box-shadow: 3px 3px 5px 5px rgb(88, 77, 128);
+}
+
+.text-box p{
+  margin: 20px 0 50px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  background-image: linear-gradient(to left, #162067 0%, #3fd18f 100%);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
 /* Two image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: center;
   width: 43%;
-  padding: 20px;
+  padding: 10px;
 }
+
+.pixo {
+  text-align: center;
+  font-size: 1.7em;
+  color: white;
+}
+
+
+.panel-heading { 
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  color:purple;
+}
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    font-size:14px;
+    float: right;
+    top:35px;
+    color: purple;
+    font-weight:normal;
+    position:absolute;
+}
+.panel-heading a.collapsed:after {
+  content:"\e080";
+}
+
+h4.panel-title {
+  font-size:25px;
+  font-family: 'Droid Serif', serif;
+  a {
+    color: purple;
+    text-decoration:none;
+  }
+}
+
+.panel  {
+  background-color:#080036;
+ }
+.panel-group {
+  .panel+.panel {
+      margin-top: 0px;
+  }
+  .panel-default{
+    border-top:transparent;    
+  }
+}
+.panel-body {
+  padding:25px;
+  background-color: #46456c;
+  }
+  .row0{
+    display: flex;
+    width: 100%;
+    color: white;
+  }
 
 
 /* Footer CSS */
 *{
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
-footer{
-  background-color: #111;
-  padding: 20px 0;
-  width: 100%;
-  bottom: 0;
-  font-size: 9px;
-  line-height: 10px;
-}
 .row{
   display: flex;
   width: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   justify-content: space-between;
   padding: 10px;
 }
 .col{
   flex-basis: 50%;
   padding: 10px;
-  font-size: 15px;
 }
 .logo{
-  width: 150px;
   margin-bottom: 0px;
   position: relative;
   float:left;
-
 }
 .col h3{
   width: fit-content;
@@ -301,7 +636,6 @@ footer{
 .input-box{
   position: relative;
   border-bottom: 1px solid #162938;
-  margin: 30px 0;
   color: white;
 }
 .input-box label {
@@ -316,7 +650,6 @@ footer{
   background: transparent;
   border-style: solid whitesmoke;
   outline: none;
-  padding: 5px 15px;
   font-size: 1em;
   font-weight: 600;
   color: white;
