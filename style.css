@@ -520,6 +520,30 @@ nav img{
   transition: all 0.35s;
   outline: none;
 }
+  td{
+    padding: 1rem 2rem;
+    color: white;
+  }
+  .on{
+    margin-left: 100px;
+    display: inline-block;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    background-image: linear-gradient(to left, #525ca1 0%, #8af0c2 100%);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
 /* Two image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: center;
@@ -584,7 +608,30 @@ h4.panel-title {
     width: 100%;
     color: white;
   }
-
+  td{
+    padding: 1rem 2rem;
+    color: white;
+  }
+  .on{
+    margin-left: 100px;
+    display: inline-block;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    background-image: linear-gradient(to left, #525ca1 0%, #8af0c2 100%);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
 
 /* Footer CSS */
 *{
